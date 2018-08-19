@@ -19,6 +19,8 @@
 
 BINARY = main
 
+OBJS = $(patsubst %.c,%.o,$(filter-out $(BINARY).c, $(wildcard *.c)))
+
 OPENCM3_DIR=../lib/libopencm3
 LDSCRIPT = ../STM32F302R8.ld
 
