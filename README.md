@@ -1,5 +1,6 @@
 Folder containing a template to generate code for the STM32F302 uC.
 The library is based on libopencm3.
+
 To make the binary file ,go to src/ and  run
 
 -> make
