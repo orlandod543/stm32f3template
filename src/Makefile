@@ -20,7 +20,6 @@
 BINARY = main
 
 OPENCM3_DIR=../lib/libopencm3
-#LDSCRIPT = $(OPENCM3_DIR)/lib/stm32/f3/stm32f303xc.ld
 LDSCRIPT = ../STM32F302R8.ld
 
 include ../libopencm3.target.mk
